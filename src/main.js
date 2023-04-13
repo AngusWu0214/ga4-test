@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueGtag, {
   config: { id: "G-6KEQK2NCFP" }
-});
+}, router);
 
 new Vue({
   router,
